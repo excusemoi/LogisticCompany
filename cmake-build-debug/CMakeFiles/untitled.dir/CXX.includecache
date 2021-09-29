@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Cargo.h
+iostream
+-
+ctime
+-
+
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/CargoFactory.h
+Cargo.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Cargo.h
+random
+-
+
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/CompareStrategy.h
+iostream
+-
+vector
+-
+list
+-
+algorithm
+-
+Cargo.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Cargo.h
+
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Container.h
+algorithm
+-
+memory
+-
+map
+-
+deque
+-
+
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/RedBlackTree.h
+chrono
+-
+CompareStrategy.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/CompareStrategy.h
+
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Relation.h
+list
+-
+Container.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Container.h
+RedBlackTree.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/RedBlackTree.h
+algorithm
+-
+
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/cp.cpp
+iostream
+-
+RedBlackTree.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/RedBlackTree.h
+Cargo.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Cargo.h
+CargoFactory.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/CargoFactory.h
+Container.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Container.h
+Relation.h
+/home/pepachka/Downloads/Telegram Desktop/LogisticCompany/Relation.h
+
